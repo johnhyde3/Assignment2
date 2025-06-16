@@ -5,7 +5,7 @@
 a=int(input("Enter a number: "))
 if a==0:
     print(a,"This number is neither even nor odd.")
-if a%2==0:
+elif a%2==0:
     print(a,"is a even number.")
 elif a%1==0:
     print(a,"is a odd number.")
